@@ -14,7 +14,9 @@ As we define together the sprints, it's important that everybody communicates is
 
 ### Milestones
 Pre-Alpha live (Invitation only, friends only):         Aug. 1st
+
 Privat Alpha live (Invitation only, around 100 users):  Sept. 1st
+
 Public Beta live:                                       Nov. 1st
 
 
