@@ -5,7 +5,7 @@ The company is still in stealth, we will launch a private alpha version of the p
 The way how headhunting is practiced today is old-fashiond and will be disrupted in the next years. We see the time, the technical abilities and data-driven models on our side. The company is founded and funded bye three serial entrepreneurs with a 20 year track record in digital Business. The goal of this project is to build an minimal valuable product to gain immediate feedback from clients. The code must be state of the art as we want to rely on this code after a successful feedback loop with first clients. We start with a white sheet - there is no code at all yet but a clear view how we want to tackle this problem.
 
 ## Whois using our platform?
-See the wiki post about roles: (user roles)(https://github.com/AlexanderMazzara/Taopeople/wiki/Definition-of-user-ro
+See the wiki post about roles: https://github.com/AlexanderMazzara/Taopeople/wiki/Definition-of-user-role
 
 ## How we work together:
 Teopeople is a collaborative project on which different people in different cities are working on. As missing information is mission critical, we need everybody to document his work and code in this privat github repository.
