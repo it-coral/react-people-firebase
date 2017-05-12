@@ -12,6 +12,9 @@ Teopeople is a collaborative project on which different people in different citi
 
 As we define together the sprints, it's important that everybody communicates issues and set red flages. Let's find solutions.
 
+### Wiki:
+Please read the Wiki and contribute.
+
 ### Milestones
 Pre-Alpha live (Invitation only, friends only):         Aug. 1st
 
