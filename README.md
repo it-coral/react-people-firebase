@@ -12,7 +12,7 @@ Teopeople is a collaborative project on which different people in different citi
 
 As we define together the sprints, it's important that everybody communicates issues and set red flages. Let's find solutions.
 
-### Milestones:
+### Milestones
 Pre-Alpha live (Invitation only, friends only):         Aug. 1st
 Privat Alpha live (Invitation only, around 100 users):  Sept. 1st
 Public Beta live:                                       Nov. 1st
