@@ -12,6 +12,9 @@ Teopeople is a collaborative project on which different people in different citi
 
 As we define together the sprints, it's important that everybody communicates issues and set red flages. Let's find solutions.
 
+### Project Management with Zenhub:
+Please install the GitHub Integration Zenhub for further project management tools.
+
 ### Wiki:
 Please read the Wiki and contribute.
 
