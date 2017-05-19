@@ -15,6 +15,9 @@ As we define together the sprints, it's important that everybody communicates is
 ### Project Management with Zenhub:
 Please install the GitHub Integration Zenhub for further project management tools.
 
+### Time Tracking with Everhour:
+We track the time of your work related to every issue. We di this with Everhour (you will be invited befor the start). So please be accurate. If you forgot to track it during work, please enter it manually after your work in ethe evening. We are a startup, we have not endless ressources. It's very important to understand always, where we stand in terms of time and budget.
+
 ### Wiki:
 Please read the Wiki and contribute.
 
@@ -46,6 +49,3 @@ Frontend: German only as a start
 Content: German and english supported
 
 The frontend has to be built, that we can easely additional languages.
-
-### Time Tracking:
-We track the time of your work related to every issue. We di this with Everhour (you will be invited befor the start). So please be accurate. If you forgot to track it during work, please enter it manually after your work in ethe evening. We are a startup, we have not endless ressources. It's very important to understand always, where we stand in terms of time and budget.
