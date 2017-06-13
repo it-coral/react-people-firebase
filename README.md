@@ -22,11 +22,11 @@ We track the time of your work related to every issue. We do this with Everhour 
 Please read the Wiki and contribute.
 
 ### Milestones
-Pre-Alpha live (Invitation only, friends only):         Aug. 1st
+Pre-Alpha live V 0.1 (Invitation only, friends only):         Jul. 1st
 
-Privat Alpha live (Invitation only, around 100 users):  Sept. 1st
+Privat Alpha live V 0.2 (Invitation only, around 100 users):  Aug. 1st
 
-Public Beta live:                                       Nov. 1st
+Public Beta live V 0.3:                                       Nov. 1st
 
 
 ### Current Version : 
