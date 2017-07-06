@@ -10,14 +10,19 @@
     "axios": "^0.16.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-form-controlled": "^0.17.25",
+    "react-form-data": "^0.2.3",
     "react-hot-loader": "^3.0.0-beta.7",
+    "react-read-more": "^1.0.0",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
+    "react-select": "^1.0.0-rc.5",
+    "react-select-plus": "^1.0.0-rc.5",
     "require-directory": "^2.1.1",
     "webpack": "^2.5.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js --port=8000",
     "build": "NODE_ENV=production webpack -p --config webpack.config.prod.js"
   },
   "main": "app.js",
