@@ -111,7 +111,7 @@ class Dashboard extends Component {
         if (login !== 'on') {
             this.setState({redirect: true});
         } else {
-            axios.get('https://www.janzz.jobs/japi/labels/?limit=30&lang=en&branch=occupation&q=test&accesskey=378b8b51ef39ce554fdc0d19984bdcdaf4c9b7818342f8966da03e95d7ef7edcd80a9b138582cd99')
+            axios.get('https://www.janzz.jobs/japi/labels/?lang=en&branch=occupation&q=test&accesskey=378b8b51ef39ce554fdc0d19984bdcdaf4c9b7818342f8966da03e95d7ef7edcd80a9b138582cd99')
                 .then(res => {
                     let occupation_list = this.createLabelsOptions(res.data);
                     that.setState({occupation_list: occupation_list});
@@ -207,8 +207,18 @@ class Dashboard extends Component {
     updateFormData = (data) => this.formData = data
 
     occupationValueChange = (val) => {
+        console.log(val);
         this.setState({occupation_value: val});
         this.formData.occupation_list = this.createValues(val);
+    }
+    occupationChangeData = (val) => {
+        let that = this;
+
+        axios.get('https://www.janzz.jobs/japi/labels/?lang=en&branch=occupation&q='+val+'&accesskey=378b8b51ef39ce554fdc0d19984bdcdaf4c9b7818342f8966da03e95d7ef7edcd80a9b138582cd99')
+            .then(res => {
+                let occupation_list = that.createLabelsOptions(res.data);
+                that.setState({occupation_list: occupation_list});
+            });
     }
 
     specializationValueChange = (val) => {
@@ -319,6 +329,7 @@ class Dashboard extends Component {
                             name="occupation_list"
                             options={this.state.occupation_list}
                             onChange={this.occupationValueChange}
+                            onInputChange={this.occupationChangeData}
 
                         />
                     </div>
@@ -329,7 +340,7 @@ class Dashboard extends Component {
                             value={this.state.specialization_value}
                             name="occupation_list"
                             options={this.state.specialization_list}
-                            onChange={this.specializationValueChange}
+                            onChange={this.occupationChangeData}
                         />
                     </div>
                     <div>
